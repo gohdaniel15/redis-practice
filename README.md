@@ -1,24 +1,24 @@
-# README
+# Redis Practice
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application is created for ALPHACamp students to practice creating a
+shopping cart using REDIS.
 
-Things you may want to cover:
+# Setup
 
-* Ruby version
+1. Clone the repository
+```
+git clone https://github.com/gohdaniel15/redis-practice.git
+cd redis-practice
+```
 
-* System dependencies
+2. Run bundle
 
-* Configuration
+```
+bundle install
+```
 
-* Database creation
+3. Setup the database
+```
+rake db:create db:migrate
+```
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
